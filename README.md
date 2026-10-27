@@ -1,4 +1,4 @@
-# Python Programming Exercises — Quera
+# Python Programming Exercises
 
 A collection of Python programming exercises completed as part of my programming practice on [Quera](https://quera.org/).
 
