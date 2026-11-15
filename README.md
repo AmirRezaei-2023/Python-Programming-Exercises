@@ -78,10 +78,5 @@ New exercises and improvements will be added as the project evolves.
 
 **Amir Rezaei**
 
-GitHub: [@AmirRezaei-teh-2023](https://github.com/AmirRezaei-teh-2023)
-
----
-
-*Learning Python one exercise at a time.* 🐍AmirRezaei-teh-2023/python/blob/main/bomb_bazi.py
 
 
