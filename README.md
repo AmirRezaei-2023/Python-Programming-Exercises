@@ -1,29 +1,17 @@
 # Python Programming Exercises
 
-A collection of Python programming exercises completed as part of my programming practice on [Quera](https://quera.org/).
+A collection of Python programming exercises solved through [Quera](https://quera.org/) as part of my ongoing programming practice and learning journey.
 
-This repository contains solutions to programming exercises designed to strengthen Python fundamentals, logical thinking, problem-solving skills, and the ability to implement simple interactive programs.
+This repository contains my solutions to various Python exercises, covering a range of topics and challenges designed to strengthen programming fundamentals, logical thinking, and problem-solving skills.
 
-The repository currently includes two exercises: **Esm-Famil** (a word-based game) and **Bomb Bazi** (a bomb game).
+## 📌 About This Repository
 
-## 📌 Current Exercises
-
-### 1. Esm-Famil (اسم فامیل)
-
-A Python implementation of the classic Persian word game *Esm-Famil*, developed as a programming exercise on Quera.
-
-🔗 [View the source code](https://github.com/AmirRezaei-teh-2023/python/blob/main/esm_famil.py)
-
-### 2. Bomb Bazi (بمب بازی)
-
-A Python implementation of a bomb game, created as part of my programming practice on Quera.
-
-🔗 [View the source code](https://github.com/AmirRezaei-teh-2023/python/blob/main/bomb_bazi.py)
+The main purpose of this repository is to document and organize my solutions to Python programming exercises on Quera. It serves as a growing collection of practical coding exercises that reflect my progress in learning Python and applying programming concepts to solve different problems.
 
 ## 🛠️ Technologies
 
-- **Python** — Core programming language
-- **Quera** — Programming exercises and practice
+- **Python** — Main programming language
+- **Quera** — Platform for programming exercises and practice
 
 ## 🚀 Getting Started
 
@@ -39,40 +27,36 @@ python --version
 
 ### Running the Programs
 
-Download or clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/AmirRezaei-teh-2023/python.git
 cd python
 ```
 
-Run the exercises separately:
+Each exercise can be run independently using Python:
 
 ```bash
-python esm_famil.py
+python filename.py
 ```
 
-```bash
-python bomb_bazi.py
-```
+Replace `filename.py` with the name of the exercise you want to run.
 
 Depending on your system configuration, you may need to use `python3` instead of `python`.
 
-## 🎯 Project Goals
+## 🎯 Repository Goals
 
-- Practice Python programming fundamentals
-- Improve logical thinking and problem-solving skills
-- Implement simple games and interactive programs
-- Build a collection of programming exercise solutions
-- Track my progress in learning and applying Python
+- Practice and strengthen Python programming fundamentals
+- Develop logical thinking and problem-solving skills
+- Apply programming concepts to practical exercises
+- Explore different types of programming challenges
+- Document learning progress through hands-on practice
 
 ## 🔄 Updates and Future Development
 
 This repository is a work in progress and will be **updated gradually over time**.
 
-I plan to add more Python programming exercises, improve existing solutions, and expand the collection as I continue practicing and developing my programming skills.
-
-New exercises and improvements will be added as the project evolves.
+As I continue learning and practicing Python, I plan to add more exercise solutions, improve existing code, and expand the collection with new challenges.
 
 ## 👨‍💻 Author
 
