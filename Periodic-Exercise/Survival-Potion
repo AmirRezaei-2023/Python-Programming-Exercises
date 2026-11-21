@@ -1,0 +1,6 @@
+a, b, c, d = map(int, input().split())
+sm = a + b + c 
+if sm%d == 0:
+    print("nemituni")
+else:
+    print("mituni")
