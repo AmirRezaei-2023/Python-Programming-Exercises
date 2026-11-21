@@ -1,0 +1,9 @@
+r, c = map(int, input().split())
+if 0<=c<=10:
+    drct = "Right"
+    hrzn = 11 - c 
+else:
+    drct = "Left"
+    hrzn = c - 10
+vert = 11 - r
+print(drct, vert, hrzn)
