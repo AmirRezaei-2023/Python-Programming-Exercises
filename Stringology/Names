@@ -1,0 +1,23 @@
+n = int(input())
+names_list = list()
+
+for i in range(n):
+    thisname = str(input())
+    uniq_char = ""
+    thisnamelist = list()
+
+    for j in range(len(thisname)):
+        if thisname[j] not in uniq_char:
+            uniq_char = uniq_char + thisname[j]
+            
+    thisnamelist.append(thisname)
+    thisnamelist.append(len(uniq_char))
+    names_list.append(thisnamelist)
+
+for i in range(len(names_list)):
+               j = i
+               while j > 0 and names_list[j][1]<names_list[j-1][1]:
+                   names_list[j], names_list[j-1] = names_list[j-1], names_list[j]
+                   j -= 1
+
+print(names_list[-1][-1])
