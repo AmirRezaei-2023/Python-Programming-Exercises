@@ -1,0 +1,18 @@
+n = int(input())
+code = input()
+locks = list()
+move = 0
+
+for i in range(n):
+    
+    thislock = input()
+    #print(code[i])
+    locks.append(thislock)
+    if thislock.find(code[i]) <= 4:
+        move = move + thislock.find(code[i])
+        #print(move)
+    elif thislock.find(code[i]) > 4:
+        move = move + (9-thislock.find(code[i]))
+        #print(move)
+
+print(move)
