@@ -1,0 +1,28 @@
+import re
+
+def solve(equation: str) -> str:
+    a, b, c = re.split(r'[+=]', equation)
+    a, b, c = a.strip(), b.strip(), c.strip()
+    if "#" in a:
+        unknown = int(c) - int(b)
+        ptrn = "^" + a.replace("#", r"\d*") + "$"
+        if re.match(ptrn, str(unknown)):
+            return f"{unknown} + {b} = {c}"
+        else:
+            return "-1"
+
+    if "#" in b:
+        unknown = int(c) - int(a)
+        ptrn = "^" + b.replace("#", r"\d*") + "$"
+        if re.match(ptrn, str(unknown)):
+            return f"{a} + {unknown} = {c}"
+        else:
+            return "-1"
+
+    if "#" in c:
+        unknown = int(a) + int(b)
+        ptrn = "^" + c.replace("#", r"\d*") + "$"
+        if re.match(ptrn, str(unknown)):
+            return f"{a} + {b} = {unknown}"
+        else:
+            return "-1"
