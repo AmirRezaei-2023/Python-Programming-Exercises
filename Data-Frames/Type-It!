@@ -1,0 +1,11 @@
+inpt_strng = input()
+crctd_strng = list()
+
+for chrctr in inpt_strng:
+    if (chrctr == "="):
+        if (len(crctd_strng) > 0):
+            crctd_strng.pop()
+    else:
+        crctd_strng.append(chrctr)
+
+print(''.join(crctd_strng))
